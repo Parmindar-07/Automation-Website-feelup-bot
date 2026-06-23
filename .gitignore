@@ -1,0 +1,49 @@
+# =============================================================
+#  .gitignore — Files that must NOT be committed to GitHub
+# =============================================================
+
+
+# ---------------------------
+# Secrets & credentials
+# ---------------------------
+.env
+*.json
+!package.json
+
+# ---------------------------
+# Browser session data
+# ---------------------------
+browser_profile/
+browser_profile_*/
+
+# ---------------------------
+# Python build artifacts
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ---------------------------
+# Virtual environment
+# ---------------------------
+venv/
+.venv/
+env/
+
+# ---------------------------
+# OS / editor junk
+# ---------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+.idea/
+.vscode/
+*.swp
